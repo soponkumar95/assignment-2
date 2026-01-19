@@ -1,0 +1,51 @@
+/* css for overall website */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* shared style */
+.btn-primary {
+    border:none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding:12px 16px;
+    background-image: linear-gradient(45deg, #F7E93F 0%, #FB09B4  51%, #9100F8  100%);
+         
+}
+
+/* header section style */
+
+/* navbar style */
+
+.nav-container {
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+    background-color: #412567;
+}
+.nav-items ul{
+    display:flex;
+    gap:32px;
+}
+.nav-items li {
+    list-style: none;
+}
+.nav-items ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+hr {
+    margin:1px;
+    padding:0;
+}
