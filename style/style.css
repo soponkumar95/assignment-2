@@ -183,3 +183,67 @@
     margin-top: 16px;
     margin-bottom: 120px;
 }
+
+/* card and feature section */
+.takewave-features {
+    background-color: #230E3D;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.features {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.title-text {
+    font-size: 1.5rem;
+    font-weight:600;
+    color:#FFFFFF;
+     margin-top:16px;
+     margin-bottom: 16px;
+     
+}
+.discription-text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    opacity:60%;
+    color:#FFFFFF;
+}
+.features-container {
+    font-size:3rem;
+    font-weight: 600;
+    text-align: center;
+    color:#FFFFFF;
+   
+
+}
+.feature-card {
+    background-color:#351165;
+    padding:40px;
+    border:none;
+    border-radius: 40px;
+}
+.why-choose {
+    margin:0px;
+    padding-top:120px;
+    padding-bottom: 40px;
+}
+.headphone {
+    grid-row: span 2;
+    padding-top: 107px;
+}
+.device {
+    grid-column: span 2;
+}
+.location {
+    grid-column: span 2;
+}
+.exclusive {
+    grid-column: span 2;
+    
+}
