@@ -311,3 +311,61 @@ iframe {
     border:none;
     border-radius:20px;
 }
+
+/* style the host section */
+.host {
+    max-width:1600px;
+    width:100%;
+    background-color: #1A0B2E;
+    margin:0 auto;
+    padding-bottom: 120px;
+    
+}
+.host-container {
+    max-width:1200px;
+    width:100%;
+    background-color: #351165;
+    margin: 0 auto;
+     display:grid;
+    grid-template-columns: 300px 1fr;
+    border:none;
+    border-radius: 40px;
+
+}
+.host-heading {
+    font-size:3rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin:0;
+    padding-top:120px;
+    text-align: center;
+}
+.profile-photo {
+    padding:40px;
+    /* margin-top: 30px; */
+    align-items: center;
+}
+.profile-content {
+    padding: 48px 40px 40px 0;
+    
+}
+.profile-content h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    /* margin-bottom: 16px; */
+    align-items:center;
+    margin:0px;
+}
+.profile-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 60%;
+    align-items:center;
+}
+.social-accounts {
+    display:flex;
+    gap: 20px;
+}
