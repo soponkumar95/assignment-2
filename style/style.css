@@ -427,14 +427,43 @@ iframe {
     margin-top:32px;
 }
 
+/* animation style  */
+.hero-microphone {
+    animation: micmove 3s ease-in-out infinite;
+}
+@keyframes micmove {
+    0% { transform : translate(0px);}
+    50% {transform: translate(-10px);}
+    100% {transform: translate(0px);}
+}
+
+
+
 
 /* mobile responsive */
+
+
+
+
 
 @media screen and (max-width:576px) {
     
     .nav-container {
         display:flex;
-        justify-content: left;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        width:100%;
+    }
+    .hum {
+        display:block;
+        margin-left: auto;
+        width: 28px;
+        margin-right: 20px;
     }
     .nav-items {
         display:none;
@@ -555,9 +584,10 @@ iframe {
 }
 
 .social-accounts {
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .footer {
@@ -565,16 +595,17 @@ iframe {
    background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        min-height: 400px;
+        min-height: 248px;
 
 .strimg-app {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 45px;
+    background-position: center right;
+    gap: 16px;
     justify-content: center;
 }
 .footer-container {
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 }
 
