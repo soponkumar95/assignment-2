@@ -245,5 +245,69 @@
 }
 .exclusive {
     grid-column: span 2;
-    
+    margin-bottom: 120px;
+}
+.feature {
+    margin-bottom: 120px;
+}
+
+/* iframe section style  */
+
+.iframe {
+    max-width: 1600px;
+    width:100%;
+    background-color: #1A0B2E;
+    margin:0 auto;
+}
+.iframe-heading-text {
+    font-size: 3rem;
+    font-weight: 600;
+    color:#FFFFFF;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    margin:0px;
+}
+.iframe-video {
+    max-width: 380px;
+    border:none;
+    border-radius: 15px;
+    background-color:#250D44;
+}
+iframe {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.video-title {
+    font-size: 1.5rem;
+    font-size: 600;
+    color: #FFFFFF;
+}
+.video-discription {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 60%;
+
+}
+.duration {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    color: #00FF88;
+    align-items: center;
+}
+.iframe-container {
+    display: flex;
+    gap:30px;
+    justify-content: center;
+}
+.video-obj {
+    padding: 24px;
+}
+.iframe-box {
+    border:none;
+    border-radius:20px;
 }
