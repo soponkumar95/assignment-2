@@ -407,3 +407,10 @@ iframe {
     opacity: 60%;
     margin-top:32px;
 }
+
+
+/* mobile responsive */
+
+@media screen and (max-width:576px) {
+    .
+}
