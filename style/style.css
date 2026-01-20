@@ -44,6 +44,11 @@
 .fa-solid-star {
     color: #00ff88;
 }
+.hover:hover {
+    cursor: pointer;
+}
+
+
 /* main css */
     .nav-container {
     max-width: 1600px;
@@ -411,6 +416,8 @@ iframe {
 
 /* mobile responsive */
 
-@media screen and (max-width:576px) {
-    .
-}
+/* @media screen and (max-width:576px) {
+    .nav-container {
+        visibility: none;
+    }
+} */
