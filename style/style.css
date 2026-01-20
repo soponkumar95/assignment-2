@@ -56,7 +56,9 @@
 .hover:hover {
     cursor: pointer;
 }
-
+.hum {
+    display:none;
+}
 
 /* main css */
     .nav-container {
